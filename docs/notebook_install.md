@@ -51,6 +51,8 @@ If you want to access data on S3, you will need to set the `AWS_ACCESS_KEY_ID` a
 
 The pre-start configuration for the production environment in `build/docker/prod` is very similar to the pre-start configuration for the development environment. A notable difference is that the default port for the production environment is `8081`.
 
+When you have finished configuring these values, run `make create-odc-network create-odc-db`.
+
 >### <a name="install_start_stop_restart"></a> Start, stop, or restart the notebook server
 -------
 
