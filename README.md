@@ -1,6 +1,6 @@
-# AMA Open Data Cube Drone Paper Notebooks
+# AMA Open Data Cube Training Notebooks
 
-The AMA Open Data Cube Drone Paper Notebooks is a collection of [Jupyter Notebooks](https://jupyter.org/) using the [Open Data Cube](https://www.opendatacube.org/) to analyze satellite data and drone data.
+The AMA Open Data Cube Training Notebooks is a collection of [Jupyter Notebooks](https://jupyter.org/) using the [Open Data Cube (ODC)](https://www.opendatacube.org/) to introduce users to the ODC.
 
 For an overview of the available notebooks, see the [Notebooks Overview](docs/notebooks_overview.md) document.
 
@@ -11,7 +11,7 @@ First follow the instructions in the [Docker Installation Guide](https://github.
 
 Follow the instructions in the [Open Data Cube Database Installation Guide](https://github.com/ceos-seo/data_cube_ui/blob/master/docs/odc_db_setup.md) to setup the Open Data Cube (ODC) database.
 
-Follow the instructions in the [CEOS Open Data Cube Notebooks Installation Guide](docs/notebook_install.md) to set up the Jupyter Notebook environment.
+Follow the instructions in the [Notebooks Installation Guide](docs/notebook_install.md) to set up the Jupyter Notebook environment.
 
 ## Obtaining Help
 -------
