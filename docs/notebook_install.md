@@ -15,13 +15,12 @@ This document will guide users through the process of installing and configuring
   * [Common problems/FAQs](#faqs)
 
 ## <a name="introduction"></a> Introduction
--------  
+
 Jupyter notebooks are extremely useful as a learning tool and as an introductory use case for the Data Cube. Our Jupyter notebook examples include many of our algorithms and some basic introductory Data Cube tutorials.
 
 The production environment is still in development, but a development environment - one that is suitable for personal use or very trusted users but not for public access - is available.
 
 ## <a name="system_requirements"></a> System Requirements
--------
 
 These are the base requirements for the notebooks:
 
@@ -29,7 +28,6 @@ These are the base requirements for the notebooks:
 * **Local Storage**: 50GiB
 
 ## <a name="prerequisites"></a> Prerequisites
--------
 
 To run our Jupyter notebook examples, the following prerequisites must be complete:
 
@@ -38,10 +36,8 @@ To run our Jupyter notebook examples, the following prerequisites must be comple
 Before we begin, note that multiple commands should not be copied and pasted to be run simultaneously unless you know it is acceptable in a given command block. Run each line individually.
 
 ## <a name="installation_process"></a> Installation Process
--------
 
 >### <a name="install_pre_start_config"></a> Pre-start configuration
--------
 
 You can set the port that the notebooks will be available on with the `HOST_PORT` environment varaible in the `build/docker/dev/.env` file. By default, the notebooks will be available on port `8080` in the development environment.
 
@@ -54,7 +50,6 @@ The pre-start configuration for the production environment in `build/docker/prod
 When you have finished configuring these values, run `make create-odc-network create-odc-db`.
 
 >### <a name="install_start_stop_restart"></a> Start, stop, or restart the notebook server
--------
 
 <a name="install_start"></a>To start the development environment, run this command:
 ```
@@ -78,7 +73,6 @@ When starting or restarting in the future, you can use the `-no-build` versions 
 The commands for the production environment in `build/docker/prod` are very similar to the commands for the development environment.
 
 >### <a name="install_ssh"></a> SSH to the notebook server
--------
 
 To connect to the development environment through a bash shell over SSH, run this command:
 ```
@@ -96,12 +90,10 @@ In the development environment, you can also launch terminals through the interf
 The same applies to the production environment in `build/docker/prod`.
 
 ## <a name="connect"></a> Access the notebooks
--------
 
 In the development environment, you can connect to the notebooks on the host machine at `localhost:<HOST_PORT>`, where `<HOST_PORT>` is the value of the `HOST_PORT` environment variable specified in the `.env` file of the environment (i.e. `build/docker/dev/.env` or `build/docker/prod/.env`).
 
 ## <a name="faqs"></a> Common problems/FAQs
--------
 
 Q: 	
  >I’m having trouble connecting to my notebook server from another computer.
@@ -115,4 +107,3 @@ A:
     <br>
     Also check that there is no firewall blocking incoming or outgoing traffic on the `HOST_PORT` port.
 
----  
